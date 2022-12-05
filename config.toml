@@ -2,6 +2,7 @@ baseURL = 'http://kdogadin.com'
 languageCode = 'en-us'
 title = 'Кирилл Догадин'
 theme = 'mini'
+googleAnalytics = 'G-XVJP56KN1Q'
 [[menu.shortcuts]]
 name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
