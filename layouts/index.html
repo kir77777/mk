@@ -1,10 +1,12 @@
 {{ define "main" }}
 {{ partial "profile.html" . }}
-<ul>
+<div class="container">
+<ul style="list-style: none;">
     {{ range .Site.Taxonomies.tags }}
             <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
     {{ end }}
 </ul>
+</div>
 <div id="list-page">
     {{ $pages := .Site.RegularPages }}
     {{ $paginator := .Paginate ($pages) }}
