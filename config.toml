@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://kdogadin.com'
 languageCode = 'en-us'
 title = 'Кирилл Догадин'
 theme = 'mini'
