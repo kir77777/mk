@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "profile.html" . }}
 <div class="container">
-<ul style="list-style: none;">
+<ul class="nav" style="list-style: none;">
     {{ range .Site.Taxonomies.tags }}
             <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
     {{ end }}
