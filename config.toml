@@ -8,3 +8,17 @@ name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
 weight = 30
 googleAnalytics = 'G-XVJP56KN1Q'
+defaultContentLanguageInSubdir = true
+defaultContentLanguage = 'ru'
+[languages]
+  [languages.en]
+    title = 'Kirill Dogadin'
+    weight = 1
+    [languages.en.params]
+      linkedin = 'https://linkedin.com/whoever'
+  [languages.ru]
+    title = 'Кирил Догадин'
+    weight = 2
+    [languages.ru.params]
+      [languages.ru.params.navigation]
+        help = 'Помощь'

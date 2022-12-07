@@ -1,11 +1,11 @@
 ---
-title: "моя статья 2"
+title: "English"
 date: 2022-12-02T02:50:03+03:00
 draft: false
-tags: ['да', 'theme'] 
+tags: ['ja', 'theme'] 
 ---
 
-Текст Текст Текст Текст Текст Текст 
+Tets Teeeeeexxxxtttttttttttttttttttttt
 
 
 
